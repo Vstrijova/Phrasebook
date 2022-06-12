@@ -137,8 +137,8 @@ if language == 'Yкраїнський':
         st.write(transliterated_text)
   else:
     pass
-
-  with st.expander("See credits"):
+  
+with st.expander("See credits"):
      st.write("""- For images: https://unsplash.com/ """)
      st.write("""- For googletrans: https://pypi.org/project/googletrans/ """)
      st.write("""- For google-transliterate-api: https://pypi.org/project/google-transliteration-api/ """)
