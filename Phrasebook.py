@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from gtts import gTTS
+from gtts import gTTs
 from googletrans import Translator
 translator = Translator()
 from transliterate import translit, get_available_language_codes
@@ -142,4 +142,4 @@ with st.expander("See credits"):
      st.write("""- For images: https://unsplash.com/ """)
      st.write("""- For googletrans: https://pypi.org/project/googletrans/ """)
      st.write("""- For google-transliterate-api: https://pypi.org/project/google-transliteration-api/ """)
-     st.write("""- For text-to-speech: https://pypi.org/project/SpeechRecognition/""")
+     st.write("""- For text-to-speech: https://pypi.org/project/SpeechRecognition/""") 
