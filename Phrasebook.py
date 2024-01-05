@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from gtts import gTTs
+from gtts import gTTS
 from googletrans import Translator
 translator = Translator()
 from transliterate import translit, get_available_language_codes
